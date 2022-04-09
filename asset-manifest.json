@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shop-pc/static/css/main.f8f6e113.css",
-    "main.js": "/shop-pc/static/js/main.6a99fd15.js",
+    "main.js": "/shop-pc/static/js/main.b6d386a4.js",
     "static/media/Intel-Mother-Board-LGA-1155-Asus.png": "/shop-pc/static/media/Intel-Mother-Board-LGA-1155-Asus.74b2fb759a57a596d45d.png",
     "static/media/AMD-Ryzen-5-Preview.png": "/shop-pc/static/media/AMD-Ryzen-5-Preview.bf20503f4a6c22e5e06f.png",
     "static/media/homeBG.jpeg": "/shop-pc/static/media/homeBG.9616317a69e485391fff.jpeg",
@@ -27,10 +27,10 @@
     "static/media/search.png": "/shop-pc/static/media/search.3f67d989ce4a2dabccb7.png",
     "index.html": "/shop-pc/index.html",
     "main.f8f6e113.css.map": "/shop-pc/static/css/main.f8f6e113.css.map",
-    "main.6a99fd15.js.map": "/shop-pc/static/js/main.6a99fd15.js.map"
+    "main.b6d386a4.js.map": "/shop-pc/static/js/main.b6d386a4.js.map"
   },
   "entrypoints": [
     "static/css/main.f8f6e113.css",
-    "static/js/main.6a99fd15.js"
+    "static/js/main.b6d386a4.js"
   ]
 }
