@@ -140,10 +140,10 @@ const App = () => {
       <Search
         handleSearch={handleSearch}
         closeSearch={closeSearch}
+        searchFilteredProduct={closeSearch}
         searchEnteredProduct={handleEnteredSearch}
         showSearch={showSearch}
         filteredData={filteredData}
-        searchFilteredProduct={showSearch}
         searchValue={searchValue}
       />
       <ShopCart
