@@ -1,0 +1,175 @@
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat ExtraLight";
+  position: absolute;
+  width: 90%;
+  top: 12%;
+  left: 5%;
+  z-index: 5;
+}
+
+.nav-container .open-search-btn {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background-image: url("../../utils/images/AppImages/search.png");
+  background-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.nav-container .cart-btn {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background-image:  url("../../utils/images/AppImages/shopping-cart.png");
+  background-size: 2rem;
+}
+
+.nav-container .cart-content {
+  font-family: "Montserrat Medium";
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+  transform: translate(-6px,-6px);
+}
+
+.nav-container > p {
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-links > li {
+  list-style: none;
+  transition: 1s;
+}
+
+.nav-links > li:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration-color: rgb(255, 255, 255, 0);
+  transition: text-decoration-color 1s;
+}
+
+.link:hover {
+  text-decoration: underline 0.15em rgb(255, 255, 255, 1);
+}
+
+/* Nav Shop Style */
+
+.nav-container.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat ExtraLight";
+  position: absolute;
+  width: 90%;
+  top: 12%;
+  left: 5%;
+  z-index: 5;
+}
+
+.nav-container.shop .open-search-btn {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background-image: url("../../utils/images/AppImages/search-black.png");
+  background-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.nav-container.shop .cart-btn {
+  width: 2rem;
+  height: 2rem;
+  background-image: url("../../utils/images/AppImages/shopping-cart-black.png");
+  background-size: 2rem;
+}
+
+.nav-container.shop .cart-content {
+  font-family: "Montserrat Medium";
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  transform: translate(-6px,-6px);
+}
+
+.nav-container.shop > p {
+   color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.nav-container.shop .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+
+.nav-container.shop .nav-links > li {
+  list-style: none;
+  transition: 1s;
+}
+
+.nav-container.shop .nav-links > li:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.nav-container.shop .link {
+  color: rgb(0, 0, 0);
+  text-decoration-color: rgb(255, 255, 255, 0);
+  transition: text-decoration-color 1s;
+}
+
+.nav-container.shop .link:hover {
+  text-decoration: underline 0.15em rgb(0, 0, 0, 1);
+}
+
+/* Media Queries */
+
+@media (max-width: 650px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+  }
+
+  .nav-container > p {
+    padding-bottom: 1.2rem;
+  }
+}
+
+

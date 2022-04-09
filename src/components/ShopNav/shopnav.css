@@ -1,0 +1,42 @@
+.shop-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  padding-top: 15rem;
+  padding-left: 5rem;
+  font-family: "Montserrat ExtraLight";
+}
+
+.shop-nav-container .shop-nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 1s;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  background: rgb(255, 255, 255);
+  border: none;
+  font-family: "Montserrat Bold";
+}
+
+.shop-nav-container > h1 > small {
+    font-size: 1rem;
+}
+
+
+@media (max-width:650px) {
+  .shop-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 20rem;
+  }
+}

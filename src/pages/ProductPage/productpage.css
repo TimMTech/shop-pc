@@ -1,0 +1,136 @@
+.product-page {
+  min-height: 100vh;
+}
+
+.product-container {
+  display: flex;
+  padding-left: 5rem;
+  justify-content: start;
+  align-items: center;
+}
+
+.info-container {
+  font-family: "Montserrat Bold";
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+}
+
+.product-display-image-container {
+  height: 100vh;
+  background-color: rgb(241, 238, 233);
+}
+
+.product-display-image {
+  width: 30rem;
+  padding-top: 12rem;
+}
+
+.add-cart-container {
+  min-width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.add-cart-container > button {
+  font-family: "Montserrat Medium";
+  letter-spacing: 0.2rem;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.add-cart-container > p:first-child {
+  font-family: "Montserrat SemiBold";
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.product-price {
+  font-family: "Montserrat Medium";
+}
+
+.add-to-cart-btn {
+  border: none;
+  background-color: rgb(241, 229, 213);
+  transition: 1s;
+}
+
+.add-to-cart-btn:hover {
+  background-position: 0;
+  animation: shine 1s infinite linear;
+  animation-fill-mode: forwards;
+  background: linear-gradient(to right, rgb(241, 229, 213) 0, white 100%);
+  background: position 0;
+  transform: scale(1.1, 1.1);
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 160px;
+  }
+}
+
+.buy-now-btn {
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: rgb(134, 110, 78);
+  transition: 1s;
+}
+
+.buy-now-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Media Queries */
+
+@media (max-width: 650px) {
+    .product-page {
+      width: 100%;
+    }
+
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20rem;
+      width: 100%;
+      padding-left: 0;
+      
+    }
+
+    .info-container {
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .product-display-image-container {
+      height: 0;
+      background-color: rgb(255,255,255);
+      
+      
+    }
+
+    .product-display-image {
+      width: 100%;
+      padding-top: 0;
+      
+    }
+
+    .add-cart-container {
+      width: 100%;
+      padding-top: 28rem;
+     
+    }
+}

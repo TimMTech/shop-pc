@@ -1,0 +1,31 @@
+.shop-container {
+    min-height: 100vh;
+}
+
+.shop-panels {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 650px) {
+    .shop-container {
+        width: 100%;
+    }
+
+    .shop-panels {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+    
+
+    .media-content-query {
+       padding-left: 1.5rem;
+    }
+}
