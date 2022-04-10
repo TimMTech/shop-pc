@@ -1,6 +1,6 @@
 import "./index.css";
-import Home from "./pages/Home";
-import Shop from "./pages/Shop";
+import Home from "./pages/HomePage";
+import Shop from "./pages/ShopPage";
 import ProductPage from "./pages/ProductPage";
 import Nav from "./components/Nav";
 import ShopCart from "./components/ShopCart";

@@ -5,7 +5,7 @@ import allProducts from "../../utils/ProductData/allProductData";
 import chassis from "../../utils/ProductData/chassisData";
 import memory from "../../utils/ProductData/memoryData";
 import motherBoard from "../../utils/ProductData/motherBoardData"
-import processor from "../../utils/ProductData/processorData.js.js";
+import processor from "../../utils/ProductData/processorData.js";
 import videoCard from "../../utils/ProductData/videoCardData";
 import Content from "../../components/Content";
 

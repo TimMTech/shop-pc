@@ -1,3 +1,17 @@
+# E-Commerce PC Store Application with Create React App
+
+This project was to show understanding of how to implement a mutli-page based
+application using "react-router-dom".  
+
+Highlights of application includes use of....
+
+1. "React-Router-Dom"
+2. Adding/Removing state objects in shopping-cart.
+3. Smooth transtions with "framer-motion" library.
+4. Filtered search system component to navigate to desired product.
+5. Mobile viewport adjustments. (Horizontal and Vertical)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
