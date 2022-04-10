@@ -1,7 +1,8 @@
 .home-container {
-  height: 100vh;
+  min-height: 100vh;
   background: url("../../utils/images/AppImages/homeBG.jpeg")no-repeat left top fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
   font-family: "Montserrat Bold";
 }
 
@@ -45,10 +46,3 @@
 }
 
 
-@media (max-width: 650px) {
-  .home-container {
-    height: 100vh;
-    background-size: cover;
-    
-  }
-}

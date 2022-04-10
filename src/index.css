@@ -34,5 +34,8 @@
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100%;
+}
 
 
