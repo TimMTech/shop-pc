@@ -47,6 +47,7 @@
 
 @media (max-width: 650px) {
   .home-container {
+    height: 100vh;
     background-size: cover;
     
   }
