@@ -107,6 +107,13 @@ const StyledInput = styled.input`
   text-align: center;
   margin: 0 0.5rem;
   font-size: 1rem;
+  ::-webkit-inner-spin-button,
+  ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  }
+ 
 `;
 
 export default Cartitem;
