@@ -1,0 +1,84 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat ExtraLight";
+  position: absolute;
+  width: 90%;
+  top: 12%;
+  left: 5%;
+  z-index: 5;
+}
+
+.nav-container .open-search-btn {
+  background-image: url("../../utils/Images/AppImages/search.png");
+}
+
+.nav-container .cart-btn {
+  background-image: url("../../utils/Images/AppImages/shopping-cart.png");
+}
+
+.nav-container .cart-content {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-container > p {
+  color: rgb(255, 255, 255);
+}
+
+
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration-color: rgb(255, 255, 255, 0);
+  transition: text-decoration-color 1s;
+}
+
+.link:hover {
+  text-decoration: underline 0.15em rgb(255, 255, 255, 1);
+}
+
+
+/* Nav Shop Style */
+
+.nav-container.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat ExtraLight";
+  position: absolute;
+  width: 90%;
+  top: 12%;
+  left: 5%;
+  z-index: 5;
+}
+
+.nav-container.shop .open-search-btn {
+  background-image: url("../../utils/Images/AppImages/search-black.png");
+}
+
+.nav-container.shop .cart-btn {
+  background-image: url("../../utils/Images/AppImages/shopping-cart-black.png");
+}
+
+.nav-container.shop .cart-content {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.nav-container.shop > p {
+  color: rgb(0, 0, 0);
+}
+
+
+.nav-container.shop .link {
+  color: rgb(0, 0, 0);
+  text-decoration-color: rgb(255, 255, 255, 0);
+  transition: text-decoration-color 1s;
+}
+
+.nav-container.shop .link:hover {
+  text-decoration: underline 0.15em rgb(0, 0, 0, 1);
+}
+
+

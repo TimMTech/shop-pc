@@ -1,6 +1,6 @@
-import fractalDesignTorrentOriginal from "../images/ProductImages/Fractal-Design-Torrent.png"
-import fractalDesignTorrentCompact from "../images/ProductImages/Fractal-Design-Torrent-Compact.png"
-import fractalDesignTorrentNano from "../images/ProductImages/Fractal-Design-Torrent-Nano.png"
+import fractalDesignTorrentOriginal from "../Images/ProductImages/Fractal-Design-Torrent.png"
+import fractalDesignTorrentCompact from "../Images/ProductImages/Fractal-Design-Torrent-Compact.png"
+import fractalDesignTorrentNano from "../Images/ProductImages/Fractal-Design-Torrent-Nano.png"
 
 const chassis = [
     {

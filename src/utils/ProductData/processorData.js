@@ -1,4 +1,4 @@
-import amdRyzen5Preview from "../images/ProductImages/AMD-Ryzen-5-Preview.png"
+import amdRyzen5Preview from "../Images/ProductImages/AMD-Ryzen-5-Preview.png"
 
 
 const processor = [

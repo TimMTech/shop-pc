@@ -1,6 +1,6 @@
-import kingstonMemoryDDR3Fury from "../images/ProductImages/Kingston-Memory-DDR3-Fury.png"
-import kingstonMemoryDDR4Fury from "../images/ProductImages/Kingston-Memory-DDR4-Fury.png"
-import kingstonMemoryDDR4Savage from "../images/ProductImages/Kingston-Memory-DDR4-Savage.png"
+import kingstonMemoryDDR3Fury from "../Images/ProductImages/Kingston-Memory-DDR3-Fury.png"
+import kingstonMemoryDDR4Fury from "../Images/ProductImages/Kingston-Memory-DDR4-Fury.png"
+import kingstonMemoryDDR4Savage from "../Images/ProductImages/Kingston-Memory-DDR4-Savage.png"
 
 const memory = [
   {

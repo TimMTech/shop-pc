@@ -1,6 +1,6 @@
-import intelMotherBoardLGA1155 from "../images/ProductImages/Intel-Mother-Board-LGA-1155.png"
-import intelMotherBoardLGA1155Asus from "../images/ProductImages/Intel-Mother-Board-LGA-1155-Asus.png"
-import intelMotherBoardLGA1151MSIATX from "../images/ProductImages/Intel-LGA-1151-MSI-ATX.png"
+import intelMotherBoardLGA1155 from "../Images/ProductImages/Intel-Mother-Board-LGA-1155.png"
+import intelMotherBoardLGA1155Asus from "../Images/ProductImages/Intel-Mother-Board-LGA-1155-Asus.png"
+import intelMotherBoardLGA1151MSIATX from "../Images/ProductImages/Intel-LGA-1151-MSI-ATX.png"
 
 
 const motherBoard = [

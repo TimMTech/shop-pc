@@ -1,0 +1,19 @@
+.support-window-container {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 8.2rem;
+  right: 3rem;
+  width: 18rem;
+  height: 23rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 0.2rem solid rgb(255,255,255);
+  cursor: default;
+}
+
+.transition-3 {
+  transition: all 0.33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+}

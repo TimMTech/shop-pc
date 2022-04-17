@@ -1,6 +1,6 @@
-import nvidiaGeForceRTX3070 from "../images/ProductImages/Nvidia-GeForce-RTX-3070.png"
-import nvidiaGeForceRTX3080 from "../images/ProductImages/Nvidia-GeForce-RTX-3080.png"
-import nvidiaGeForceRTX3090 from "../images/ProductImages/Nvidia-GeForce-RTX-3090.png"
+import nvidiaGeForceRTX3070 from "../Images/ProductImages/Nvidia-GeForce-RTX-3070.png"
+import nvidiaGeForceRTX3080 from "../Images/ProductImages/Nvidia-GeForce-RTX-3080.png"
+import nvidiaGeForceRTX3090 from "../Images/ProductImages/Nvidia-GeForce-RTX-3090.png"
 
 const videoCard = [
   {

@@ -5,9 +5,11 @@ import ProductPage from "./pages/ProductPage";
 import Nav from "./components/Nav";
 import ShopCart from "./components/ShopCart";
 import Search from "./components/Search";
+import SupportEngine from "./components/SupportEngine";
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import allProducts from "./utils/ProductData/allProductData";
+
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
@@ -38,6 +40,7 @@ const App = () => {
     setFilteredData([]);
     setSearchValue("");
   };
+
 
   const handleSearch = (e) => {
     const value = e.target.value;
@@ -136,6 +139,7 @@ const App = () => {
           path="/shop/:productId/"
           element={<ProductPage addToCart={addToCart} />}
         />
+        
       </Routes>
       <Search
         handleSearch={handleSearch}
@@ -147,13 +151,14 @@ const App = () => {
         searchValue={searchValue}
       />
       <ShopCart
-        cartContent={cart}
         updateQuantity={updateQuantity}
         closeCart={closeCart}
+        cartContent={cart}
         totalPrice={totalPrice}
         items={cart}
         showCart={showCart}
       />
+      <SupportEngine />
     </>
   );
 };
