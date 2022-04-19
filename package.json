@@ -41,11 +41,9 @@
   "devDependencies": {
     "@ant-design/icons": "^4.7.0",
     "axios": "^0.26.1",
-    "firebase": "^9.6.10",
     "framer-motion": "^6.2.9",
     "gh-pages": "^3.2.3",
     "react-chat-engine": "^1.11.22",
-    "react-firebase": "^2.2.8",
     "react-router-dom": "^6.3.0",
     "styled-components": "^5.3.5"
   },
