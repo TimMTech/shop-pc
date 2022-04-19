@@ -1,5 +1,6 @@
 
-import ShopNav from "../../components/ShopNav";
+import ShopNav from "../../components/ShopNav/ShopNav.js"
+import Content from "../../components/Content/Content.js";
 import { useState } from "react";
 import allProducts from "../../utils/ProductData/allProductData";
 import chassis from "../../utils/ProductData/chassisData";
@@ -7,7 +8,6 @@ import memory from "../../utils/ProductData/memoryData";
 import motherBoard from "../../utils/ProductData/motherBoardData";
 import processor from "../../utils/ProductData/processorData.js";
 import videoCard from "../../utils/ProductData/videoCardData";
-import Content from "../../components/Content";
 import styled from "styled-components";
 
 const Shop = () => {

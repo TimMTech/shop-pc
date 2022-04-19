@@ -1,5 +1,5 @@
-import Avatar from "./Avatar";
-import SupportWindow from "./SupportWindow";
+import Avatar from "./Avatar/Avatar.js";
+import SupportWindow from "./SupportWindow/SupportWindow.js";
 import styled from "styled-components"
 import { useState, useRef, useEffect } from "react";
 

@@ -1,5 +1,5 @@
 
-import ShopItem from "../ShopItem";
+import ShopItem from "../ShopItem/ShopItem.js"
 import styled from "styled-components";
 
 const Content = ({ product }) => {

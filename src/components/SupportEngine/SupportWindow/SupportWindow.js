@@ -1,6 +1,6 @@
 
-import EmailForm from "../EmailForm";
-import Chat from "../Chat";
+import EmailForm from "../EmailForm/EmailForm.js";
+import Chat from "../Chat/Chat.js";
 import { useState } from "react";
 import createUser from "../../../utils/API/createUser"
 import createChat from "../../../utils/API/createChat"

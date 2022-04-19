@@ -1,5 +1,5 @@
 
-import Cartitem from "../CartItem";
+import CartItem from "../CartItem/CartItem.js"
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -23,7 +23,7 @@ const ShopCart = ({
   updateQuantity,
 }) => {
   const newItem = items.map((details) => (
-    <Cartitem
+    <CartItem
       key={details.productId}
       item={details}
       updateQuantity={updateQuantity}
@@ -72,7 +72,9 @@ const ShopCart = ({
                 )}
                 {cartContent && cartContent.length === 0 && (
                   <EmptyCart>
-                    <EmptyCartParagraph>Your Bag Is Empty</EmptyCartParagraph>
+                    <EmptyCartParagraph>
+                      Your Bag Is Empty
+                    </EmptyCartParagraph>
                     <StyledLink onClick={closeCart} to={"/shop"}>
                       Browse Products
                     </StyledLink>
@@ -173,7 +175,9 @@ const EmptyCart = styled.div`
   }
 `;
 
-const EmptyCartParagraph = styled.p`
+const EmptyCartParagraph = styled.p.attrs(() => ({
+  'data-testid': 'Empty Cart'
+}))`
   font-family: "Montserrat Bold";
   text-align: center;
   font-size: 3.2rem;

@@ -1,15 +1,14 @@
 import "./index.css";
-import Home from "./pages/HomePage";
-import Shop from "./pages/ShopPage";
-import ProductPage from "./pages/ProductPage";
-import Nav from "./components/Nav";
-import ShopCart from "./components/ShopCart";
-import Search from "./components/Search";
-import SupportEngine from "./components/SupportEngine";
+import Home from "./pages/HomePage/Home.js";
+import Shop from "./pages/ShopPage/Shop.js";
+import ProductPage from "./pages/ProductPage/Product.js";
+import Nav from "./components/Nav/Nav.js";
+import ShopCart from "./components/ShopCart/ShopCart.js";
+import Search from "./components/Search/Search.js";
+import SupportEngine from "./components/SupportEngine/SupportEngine.js";
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import allProducts from "./utils/ProductData/allProductData";
-
 
 const App = () => {
   const [showCart, setShowCart] = useState(false);
@@ -40,7 +39,6 @@ const App = () => {
     setFilteredData([]);
     setSearchValue("");
   };
-
 
   const handleSearch = (e) => {
     const value = e.target.value;
@@ -139,7 +137,6 @@ const App = () => {
           path="/shop/:productId/"
           element={<ProductPage addToCart={addToCart} />}
         />
-        
       </Routes>
       <Search
         handleSearch={handleSearch}

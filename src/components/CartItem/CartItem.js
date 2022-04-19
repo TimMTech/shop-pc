@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import styled from "styled-components";
 
-const Cartitem = ({ item, updateQuantity }) => {
+const CartItem = ({ item, updateQuantity }) => {
   const { quantity } = item;
 
   const format = (amount) => {
@@ -116,4 +116,4 @@ const StyledInput = styled.input`
  
 `;
 
-export default Cartitem;
+export default CartItem;
