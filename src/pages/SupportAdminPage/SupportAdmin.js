@@ -7,8 +7,8 @@ const SupportAdmin = () => {
       <SupportAdminWrapper>
         <ChatEngine
           projectID={process.env.REACT_APP_CE_PROJECT_ID}
-          userName="Tim"
-          userSecret="redcross"
+          userName={process.env.REACT_APP_CE_ADMIN_USERNAME}
+          userSecret={process.env.REACT_APP_CE_ADMIN_PASSWORD}
         />
       </SupportAdminWrapper>
     );
