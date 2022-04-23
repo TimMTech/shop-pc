@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop-pc/static/css/main.5df4e427.css",
-    "main.js": "/shop-pc/static/js/main.8db1bc5d.js",
+    "main.css": "/shop-pc/static/css/main.7d66cc82.css",
+    "main.js": "/shop-pc/static/js/main.b4f0e6db.js",
     "static/media/Intel-Mother-Board-LGA-1155-Asus.png": "/shop-pc/static/media/Intel-Mother-Board-LGA-1155-Asus.74b2fb759a57a596d45d.png",
     "static/media/AMD-Ryzen-5-Preview.png": "/shop-pc/static/media/AMD-Ryzen-5-Preview.bf20503f4a6c22e5e06f.png",
     "static/media/homeBG.jpeg": "/shop-pc/static/media/homeBG.9616317a69e485391fff.jpeg",
@@ -21,16 +21,17 @@
     "static/media/Montserrat-Light.ttf": "/shop-pc/static/media/Montserrat-Light.f0963fd9968fbd54cc35.ttf",
     "static/media/Montserrat-Regular.ttf": "/shop-pc/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
     "static/media/Montserrat-ExtraLight.ttf": "/shop-pc/static/media/Montserrat-ExtraLight.b70ef3d0e89b27907868.ttf",
+    "static/media/avatar.png": "/shop-pc/static/media/avatar.a4508de9556c38ce225f.png",
     "static/media/Kingston-Memory-DDR4-Fury.png": "/shop-pc/static/media/Kingston-Memory-DDR4-Fury.8d24dc189d8b71be9da6.png",
     "static/media/Fractal-Design-Torrent-Compact.png": "/shop-pc/static/media/Fractal-Design-Torrent-Compact.705ef664519cacf716c8.png",
     "static/media/search-black.png": "/shop-pc/static/media/search-black.ad5b2170a4ae7064bd72.png",
     "static/media/search.png": "/shop-pc/static/media/search.3f67d989ce4a2dabccb7.png",
     "index.html": "/shop-pc/index.html",
-    "main.5df4e427.css.map": "/shop-pc/static/css/main.5df4e427.css.map",
-    "main.8db1bc5d.js.map": "/shop-pc/static/js/main.8db1bc5d.js.map"
+    "main.7d66cc82.css.map": "/shop-pc/static/css/main.7d66cc82.css.map",
+    "main.b4f0e6db.js.map": "/shop-pc/static/js/main.b4f0e6db.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df4e427.css",
-    "static/js/main.8db1bc5d.js"
+    "static/css/main.7d66cc82.css",
+    "static/js/main.b4f0e6db.js"
   ]
 }
