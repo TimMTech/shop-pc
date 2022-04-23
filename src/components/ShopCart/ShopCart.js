@@ -30,6 +30,7 @@ const ShopCart = ({
     />
   ));
 
+
   const format = (amount) => {
     const formatter = new Intl.NumberFormat("en-US", {
       style: "currency",
@@ -153,7 +154,14 @@ const CartContent = styled.div`
   padding-top: 3rem;
 `;
 
-const CartItems = styled.div``;
+const CartItems = styled((props) => {
+  return (
+    <div data-testid="Cart Items">
+      {props.children}
+    </div>
+  )
+})``
+
 
 const CartTotal = styled.div`
   font-family: "Montserrat Bold";
@@ -175,16 +183,20 @@ const EmptyCart = styled.div`
   }
 `;
 
-const EmptyCartParagraph = styled.p.attrs(() => ({
-  'data-testid': 'Empty Cart'
-}))`
+const StyledEmptyCartParagraph = styled.p`
   font-family: "Montserrat Bold";
   text-align: center;
   font-size: 3.2rem;
   @media (max-width: 650px) {
-    font-size: 2rem;
-  }
-`;
+    font-size: 2rem;`;
+
+
+const EmptyCartParagraph = styled((props) => {
+  return (
+    <StyledEmptyCartParagraph data-testid="Empty Cart">{props.children}</StyledEmptyCartParagraph>
+  )
+})``;
+
 
 const StyledLink = styled(Link)`
   font-family: "Montserrat Medium";

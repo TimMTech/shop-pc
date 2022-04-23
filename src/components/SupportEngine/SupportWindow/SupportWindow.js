@@ -1,54 +1,47 @@
-
 import EmailForm from "../EmailForm/EmailForm.js";
 import Chat from "../Chat/Chat.js";
 import { useState } from "react";
-import createUser from "../../../utils/API/createUser"
-import createChat from "../../../utils/API/createChat"
-import styled from "styled-components"
+import createUser from "../../../utils/API/createUser";
+import createChat from "../../../utils/API/createChat";
+import styled from "styled-components";
 
 const SupportWindow = ({ visible }) => {
   const [email, setEmail] = useState("");
   const [user, setUser] = useState(null);
   const [chat, setChat] = useState(null);
-  const [loading, setLoading] = useState(false)
-  
+  const [loading, setLoading] = useState(false);
+
   const [feed, setFeed] = useState({
     showChat: false,
-    showEmailForm: true
-  })
-  
+    showEmailForm: true,
+  });
+
   const handleEmailChange = (e) => {
     const { value } = e.target;
     setEmail(value);
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    setLoading(true)
-    createUser(email,
-      user => {
-        setUser(user)
-        createChat(email,
-          chat => setChat(chat)
-        )
-      }
-    )
-    
+    e.preventDefault();
+    setLoading(true);
+    createUser(email, (user) => {
+      setUser(user);
+      createChat(email, (chat) => setChat(chat));
+    });
+
     setTimeout(() => {
-      setLoading(false)
-      setFeed({...feed, 
-        showChat: true,
-        showEmailForm: false}
-      )
-    }, 7000)
+      setLoading(false);
+      setFeed({ ...feed, showChat: true, showEmailForm: false });
+    }, 7000);
   };
-
-
 
   return (
     <SupportWindowWrapper
-      style={{ opacity: visible ? "1" : "0",
-            visibility : visible ? "visible" : "hidden"}}
+      data-testid="API Test"
+      style={{
+        opacity: visible ? "1" : "0",
+        visibility: visible ? "visible" : "hidden",
+      }}
     >
       <EmailForm
         handleSubmit={handleSubmit}
@@ -66,6 +59,7 @@ const SupportWindow = ({ visible }) => {
     </SupportWindowWrapper>
   );
 };
+
 
 const SupportWindowWrapper = styled.div`
   background-color: rgb(255, 255, 255);

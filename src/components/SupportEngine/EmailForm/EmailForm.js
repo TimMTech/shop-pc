@@ -1,4 +1,3 @@
-
 import { LoadingOutlined } from "@ant-design/icons";
 import styled from "styled-components";
 import avatar from "../../../utils/Images/AppImages/avatar.png";
@@ -98,7 +97,9 @@ const Greeting = styled.div`
   font-size: 1.2rem;
 `;
 
-const StyledForm = styled.form``;
+const StyledForm = styled.form.attrs(() => ({
+  "data-testid": "Submit Form",
+}))``;
 
 const StyledInput = styled.input`
   font-family: "Montserrat Medium";
