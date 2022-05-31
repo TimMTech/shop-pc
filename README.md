@@ -9,7 +9,8 @@ Highlights of application includes use of....
 2. Adding/Removing state objects in shopping-cart.
 3. Smooth transtions with "framer-motion" library.
 4. Filtered search system component to navigate to desired product.
-5. Mobile viewport adjustments. (Horizontal and Vertical)
+5. Mobile viewport adjustments. (Horizontal and Vertical).
+6. Implemented an Admin Chat Room where user can ask for help.
 
 
 # Getting Started with Create React App
