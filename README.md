@@ -4,6 +4,11 @@ This project was to show understanding of how to implement a mutli-page based
 application using "react-router-dom".  
 
 <img width="1429" alt="Screen Shot 2022-05-31 at 6 20 12 PM" src="https://user-images.githubusercontent.com/90993242/171293765-e3009f4d-d394-4717-93db-72fc51b94971.png">
+<img width="1433" alt="Screen Shot 2022-05-31 at 6 23 00 PM" src="https://user-images.githubusercontent.com/90993242/171294017-c1488748-fccf-4b9c-ad31-0079c2c41cfc.png">
+<img width="566" alt="Screen Shot 2022-05-31 at 6 23 21 PM" src="https://user-images.githubusercontent.com/90993242/171294029-6f7dd5c8-cb3a-425b-8c28-c67482966300.png">
+<img width="1104" alt="Screen Shot 2022-05-31 at 6 23 58 PM" src="https://user-images.githubusercontent.com/90993242/171294049-66946b17-9b86-4b51-98a5-b6df30313d31.png">
+<img width="1433" alt="Screen Shot 2022-05-31 at 6 23 39 PM" src="https://user-images.githubusercontent.com/90993242/171294034-4795424f-eb78-4c93-92c6-397fa555a479.png">
+
 
 
 
